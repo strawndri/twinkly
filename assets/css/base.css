@@ -1,0 +1,18 @@
+:root {
+--yellow: #ECE897;
+--lavender: #DBC2E3;
+--purple: #B273DB;
+--middle-purple: #6C41A8;
+--dark-purple: #2A2137;
+--white: #ceb6b6;
+--green: #81D67B;
+--pink: #D66696;
+}
+
+body {
+    background-color: var(--lavender);
+}
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
