@@ -1,0 +1,19 @@
+.cards__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cartao {
+    background-color: var(--white);
+    width: 80%;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 8px;
+}
+
+.card__title {
+    text-align: center;
+    color: var(--middle-purple);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
