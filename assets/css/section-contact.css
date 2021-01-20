@@ -1,0 +1,28 @@
+.section__contact {
+    background-color: var(--light-lavender);
+    padding: 2rem 1.5rem;
+}
+
+.contact__title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact__form label {
+    margin-top: 1rem;
+}
+
+.input {
+    width: 100%;
+    margin-top: .5rem;
+    border: 2px solid var(--purple);
+    transition: .5s;
+}
+
+.input:hover {
+    border-color: var(--middle-purple);
+    background-color: var(--white);
+}
+
+
+
