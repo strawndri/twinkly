@@ -1,0 +1,9 @@
+.footer {
+    padding: 1.5rem 0;
+    text-align: center;
+    border-top: 2px solid var(--purple);
+}
+
+.footer__text::before {
+    content: "\00A9";
+}
