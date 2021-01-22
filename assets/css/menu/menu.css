@@ -1,0 +1,23 @@
+.menu {
+    position: absolute;
+    background-color: var(--light-lavender);
+    width: 80%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform .5s linear;
+}
+.menu__open {
+    transform: translateX(0);
+}
+.menu__item {
+    padding: .6rem 1rem;
+    border-bottom: 2px solid var(--pink);
+}
+
+.menu__item-action {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--dark-purple)
+}
