@@ -1,0 +1,56 @@
+.section__grimoire {
+    margin: 2rem 0;
+}
+
+.cards__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--light-lavender);
+    width: 80%;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    border: 2px solid var(--pink);
+    border-radius: 8px;
+    transition:.5s;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+
+.card__title {
+    text-align: center;
+    color: var(--middle-purple);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        width: 35%;
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 20%;
+        height: 12rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 15%;
+        height: 15rem;
+    }
+}

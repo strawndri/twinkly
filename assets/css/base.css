@@ -17,10 +17,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 .container {
     margin: 0 auto;
     width: 96%;
+}
+
+.title {
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 600;
+    margin: .5em 0;
 }
 
 .button-box {
@@ -41,4 +47,5 @@ body {
 .button:hover {
     background-color: #935ab9 ;
     border: 2px solid var(--dark-purple);
+    cursor: pointer;
 }

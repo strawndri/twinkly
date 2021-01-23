@@ -9,88 +9,70 @@
         <link rel="stylesheet" href="assets/css/reset.css">        
         <link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/header.css">
-        <link rel="stylesheet" href="assets/css/menu/btn-menu.css">
-        <link rel="stylesheet" href="assets/css/menu/menu.css">
-        <link rel="stylesheet" href="assets/css/section-cards.css">
+        <link rel="stylesheet" href="assets/css/section-banner.css">
+        <link rel="stylesheet" href="assets/css/section-grimoire.css">
         <link rel="stylesheet" href="assets/css/section-contact.css">
         <link rel="stylesheet" href="assets/css/footer.css">
     </head>
     <body>
-        <header class="header">
-          <nav class="wrap__menu">
-          <a href="#menu" class="btnMenu btnMenu_open">menu</a>
+        <header class="header container">
+          <h1 class="header__title"><img src="assets/img/twinkly-title.svg" alt="Twinkly"></h1>
+          <nav class="nav__menu">
           <ul id="menu" class="menu">
-            <li class="btnMenu btnMenu_close">close</li>
             <li class="menu__item">
-              <a href="" class="menu__item-action">contact</a>
+              <a href="#section__contact" class="menu__item-action">contact</a>
             </li>
             <li class="menu__item">
-              <a href="" class="menu__item-action">witchcraft: history</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__item-action">tarot</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__item-action">wheel of the year</a>
-            </li>
-            <li class="menu__item"> 
-              <a href="" class="menu__item-action">correlations and tools</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__item-action">altar</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__item-action">meditation</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__item-action">books</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__item-action">spells, charms and rituals</a>
+              <a href="#section__grimoire" class="menu__item-action">grimoire</a>
             </li>
           </ul>
         </nav>
-        <h1 class="header__title"><img src="assets/img/twinkly-title.svg" alt="Twinkly"></h1>
         </header>
+        <section class="section__banner">
+          <img class="banner__image" src="assets/img/banner.png">
+        </section>    
 
-        <section class="section__cards container">
-            <ul class="cards__list">
-              <li class="cartao card__witchcraft">
-                <img class="card__image" src="/assets/img/witchcraft.svg" alt="">
-                <h2 class="card__title">witchcraft: history</h2>
-              </li>
-              <li class="cartao card__tarot">
-                <img class="card__image" src="/assets/img/tarot.svg" alt="">
-                <h2 class="card__title">tarot</h2>
-              </li>
-              <li class="cartao card__wheel-of-the-year">
-                <img class="card__image" src="/assets/img/wheel-of-the-year.svg" alt="">
-                <h2 class="card__title">wheel of the year</h2>    
-              </li>
-              <li class="cartao card__correlation-tools">
-                <img class="card__image" src="/assets/img/correlation-tools.svg" alt="">
-                <h2 class="card__title">correlations and tools</h2>
-              </li>
-              <li class="cartao card__altar">
-                <img class="card__image" src="/assets/img/altar.svg" alt="">
-                <h2 class="card__title">altar</h2>
-              </li>
-              <li class="cartao card__meditation">
-                <img class="card__image" src="/assets/img/meditation.svg" alt="">
-                <h2 class="card__title">meditation</h2>
-              </li>
-              <li class="cartao card__books">
-                <img class="card__image" src="/assets/img/books.svg" alt="">
-                <h2 class="card__title">books</h2>
-              </li>
-              <li class="cartao card__spells-charms-rituals">
-                <img class="card__image" src="/assets/img/spells-charms-rituals.svg" alt="">
-                <h2 class="card__title">spells, charms and rituals</h2>
-              </li>
-            </ul>
+        <section class="section__grimoire" id="section__grimoire">
+         <div class="container">
+          <h2 class="title grimoire__title">Grimoire</h2>
+          <ul class="cards__list">
+            <li class="card card__witchcraft" id="card__witchcraft">
+              <img class="card__image" src="/assets/img/witchcraft.svg" alt="">
+              <h2 class="card__title">witchcraft: history</h2>
+            </li>
+            <li class="card card__tarot" id="card__tarot">
+              <img class="card__image" src="/assets/img/tarot.svg" alt="">
+              <h2 class="card__title">tarot</h2>
+            </li>
+            <li class="card card__wheel-of-the-year" id="card__wheel-of-the-year">
+              <img class="card__image" src="/assets/img/wheel-of-the-year.svg" alt="">
+              <h2 class="card__title">wheel of the year</h2>    
+            </li>
+            <li class="card card__correlations-tools" id="card__correlations-tools">
+              <img class="card__image" src="/assets/img/correlation-tools.svg" alt="">
+              <h2 class="card__title">correlations and tools</h2>
+            </li>
+            <li class="card card__altar" id="card__altar">
+              <img class="card__image" src="/assets/img/altar.svg" alt="">
+              <h2 class="card__title">altar</h2>
+            </li>
+            <li class="card card__meditation" id="card__meditation">
+              <img class="card__image" src="/assets/img/meditation.svg" alt="">
+              <h2 class="card__title">meditation</h2>
+            </li>
+            <li class="card card__books" id="card__books">
+              <img class="card__image" src="/assets/img/books.svg" alt="">
+              <h2 class="card__title">books</h2>
+            </li>
+            <li class="card card__spells-charms-rituals" id="card__spells-charms-rituals">
+              <img class="card__image" src="/assets/img/spells-charms-rituals.svg" alt="">
+              <h2 class="card__title">practice</h2>
+            </li>
+          </ul>
+         </div>
         </section>
-        <section class="section__contact"> 
-          <h2 class="contact__title">contact</h2>
+        <section class="section__contact" id="section__contact"> 
+          <h2 class="title contact__title">contact</h2>
           <form class="contact__form">
             <field class="field">
               <label for="name">name:</label>
