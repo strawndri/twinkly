@@ -27,7 +27,26 @@
     background-color: var(--white);
 }
 
+@media screen and (min-width: 768px) {
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .field {
+        margin: 0 1.5rem;
+    }
+    .field__contact {
+        width: 50%;
+    }
+    .field__message {
+        width: 50%;
+    }
+    #message {
+        height: 11.7rem;   
+    }
 
+}
 
 
 
