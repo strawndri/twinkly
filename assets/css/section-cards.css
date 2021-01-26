@@ -1,4 +1,4 @@
-.section__grimoire {
+.section__cards {
     margin: 2rem 0;
 }
 
@@ -8,30 +8,40 @@
     flex-wrap: wrap;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     background-color: var(--light-lavender);
-    width: 80%;
-    height: 20rem;
-    padding: 1rem;
-    margin: 1.5rem;
     border: 2px solid var(--pink);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-around;
+    margin: 1.5rem;
+    padding: 1rem;
     transition:.5s;
+    align-items: center;
+    text-align: center;
+    width: 80%;
 }
 
 .card:hover {
-    cursor: pointer;
     background-color: var(--white);
 }
 
+.card__image {
+    width: 100%;
+    padding-bottom: 1rem
+}
 
-.card__title {
-    text-align: center;
+
+.card__link {
     color: var(--middle-purple);
-    margin-top: 1rem;
     font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 600px) {
@@ -45,6 +55,10 @@
     .card {
         width: 20%;
         height: 12rem;
+    }
+
+    .card__link {
+        font-size: 1.3rem;
     }
 }
 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <title>Twinkly</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/reset.css">        
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/header.css">
+  <link rel="stylesheet" href="../../css/section-banner.css">
+  <link rel="stylesheet" href="../../css/no-content.css">
+  <link rel="stylesheet" href="../../css/section-contact.css">
+  <link rel="stylesheet" href="../../css/footer.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title"><a href="../../../index.html"><img src="../../img/twinkly-title.svg" alt="Twinkly"></a></h1>
+    <nav class="nav__menu">
+      <ul id="menu" class="menu">
+        <li class="menu__item">
+          <a href="../../../index.html" class="menu__item-action">home</a>
+        </li>
+        <li class="menu__item">
+          <a href="principal.html" class="menu__item-action">altar</a>
+        </li>
+        <li class="menu__item">
+          <a href="#section__contact" class="menu__item-action">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <section class="section__banner">
+    <div class="banner__image"></div>
+  </section>    
+   -->
+  <section class="section__no-content">
+        <div class="image__no-content"></div>
+        <h2 class="title">Oops! Nothing here.</h2>
+        <p>there is a witch studying now.</p>
+        <a class="no-content__link" href="../../../index.html">go back home</a>
+
+  </section>
+  <section class="section__contact" id="section__contact"> 
+    <h2 class="title contact__title">contact</h2>
+    <form class="contact__form">
+      <div class="contact">
+        <div class="field__contact">
+          <field class="field">
+            <label for="name">name:</label>
+            <input type="text" id="name" class="form-control input" placeholder="enter you name" required>
+          </field>
+          <field class="field">
+            <label for="email">email:</label>
+            <input type="email" id="email" class="form-control input" placeholder="enter you email adress" required>
+          </field>
+          <field class="field">
+            <label for="phone">phone:</label>
+            <input type="tel" id="phone" class="form-control input" placeholder="enter you phone" required>
+          </field>
+        </div>
+        <div class="field__message">
+          <field class="field">
+            <label for="message">message:</label>
+            <textarea id="message" class="form-control input" name="message" maxlength="200" rows="5" required></textarea>
+          </field>
+        </div>
+      </div>
+      <div class="button-box">
+        <button type="submit" class="button">submit</button>
+      </div>
+    </form>
+  </section>
+  <footer class="footer">
+    <h4 class="footer__text"> copyright 2021 | twinkly</h4>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.section__no-content {
+    background-color: var(--white);
+    padding: 2rem 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image__no-content{
+    background-image: url('../img/loading-dont-content.svg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section__no-content p {
+    margin-bottom: .5rem;
+}
+.no-content__link {
+    font-weight: bold;
+    color: var(--pink);
+}
