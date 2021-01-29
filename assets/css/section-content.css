@@ -1,0 +1,36 @@
+.section__content {
+    background-color: var(--white);
+    padding: 1rem;
+}
+
+.paragraph {
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    line-height: 1.4em;
+}
+
+.attention {
+    background-color: var(--light-lavender);
+    color: var(--pink);
+    margin-top: 8rem;
+    padding: .5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .section__content {
+        padding: 1rem 5rem;
+    }
+    
+    .paragraph {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section__content {
+        padding: 1rem 16rem;
+    }
+    
+}

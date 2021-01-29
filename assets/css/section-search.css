@@ -1,0 +1,44 @@
+.section__search {
+    margin: 2rem 0;
+}
+
+.search__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.search__item {
+    margin: 1.5rem 1rem;
+    width: 90%;
+}
+.search__item-link {
+    color: var(--middle-purple);
+    background-color: var(--light-lavender);
+    display: flex;
+    padding: 1.5rem;
+    border: 2px solid rgba(206, 92, 141, .5);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .8s;
+}
+
+.search__item-link:hover {
+    background-color: var(--white);
+}
+
+.search__item-image {
+    display:none;
+}
+
+.search__item-title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.search__item-sumary {
+    font-size: 1.1em;
+    line-height: 1.5rem;
+}
