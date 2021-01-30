@@ -9,6 +9,18 @@
     line-height: 1.4em;
 }
 
+.content__figure {
+    margin: 1rem 0 2.5rem 0;
+}
+.content__image {
+    width: 100%;
+}
+.content__legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .1rem;
+}
+
 .attention {
     background-color: var(--light-lavender);
     color: var(--pink);
