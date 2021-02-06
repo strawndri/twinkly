@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width initial-scale=1.0">
-  <title>Twinkly | altar</title>
+  <title>Twinkly | correspondences</title>
   <link rel="icon" type="imagem/png" href="../../img/icon-moon.png"/>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="../../css/base.css">
   <link rel="stylesheet" href="../../css/header.css">
   <link rel="stylesheet" href="../../css/section-banner.css">
-  <link rel="stylesheet" href="../../css/no-content.css">
+  <link rel="stylesheet" href="../../css/section-search.css">
   <link rel="stylesheet" href="../../css/section-contact.css">
   <link rel="stylesheet" href="../../css/footer.css">
 </head>
+
 <body>
   <header class="header">
     <h1 class="header__title"><a href="../../../index.html"><img src="../../img/twinkly-title.svg" alt="Twinkly"></a></h1>
@@ -24,7 +25,7 @@
           <a href="../../../index.html" class="menu__item-action">home</a>
         </li>
         <li class="menu__item">
-          <a href="principal.html" class="menu__item-action">altar</a>
+          <a href="principal.html" class="menu__item-action">correspondences</a>
         </li>
         <li class="menu__item">
           <a href="#section__contact" class="menu__item-action">contact</a>
@@ -32,17 +33,37 @@
       </ul>
     </nav>
   </header>
-  <!-- <section class="section__banner">
+
+  <section class="section__banner">
     <div class="banner__image"></div>
   </section>    
-   -->
-  <section class="section__no-content">
-        <div class="image__no-content"></div>
-        <h2 class="title">Oops! Nothing here.</h2>
-        <p>there is a witch studying now.</p>
-        <a class="no-content__link" href="../../../index.html">go back home</a>
-
+  
+  <section class="section__search">
+    <div class="container">
+      <h2 class="title">correspondences</h2>
+      <ul class="search__list">
+        <li class="search__item">
+          <a class="search__item-link" href="pages/fire.html">
+            <img class="search__item-image" src="../../../assets/img/fire.jpg" alt="">
+            <div class="search-description">
+              <h3 class="search__item-title">element and elemental of nature: fire</h3>
+              <p class="search__item-sumary">Fire is about our soul transformation and sensuality. It is like a masculine side (extremely active and dry)...</p>
+            </div>  
+          </a>
+        </li>
+        <li class="search__item">
+          <a class="search__item-link" href="pages/fire.html">
+            <img class="search__item-image" src="../../../assets/img/fire.jpg" alt="">
+            <div class="search-description">
+              <h3 class="search__item-title">element and elemental of nature: fire</h3>
+              <p class="search__item-sumary">Fire is about our soul transformation and sensuality. It is like a masculine side (extremely active and dry)...</p>
+            </div>  
+          </a>
+        </li>
+      </ul>
+    </div>
   </section>
+  
   <section class="section__contact" id="section__contact"> 
     <h2 class="title contact__title">contact</h2>
     <form class="contact__form">
@@ -73,6 +94,7 @@
       </div>
     </form>
   </section>
+
   <footer class="footer">
     <h4 class="footer__text"> copyright 2021 | twinkly</h4>
   </footer>

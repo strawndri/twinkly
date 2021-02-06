@@ -45,6 +45,15 @@
     font-weight: bold;
 }
 
+.table {
+    display: flex;
+    justify-content: center;
+}
+.table__column {
+    border: 3px solid var(--pink);
+    padding: .5rem 1rem;
+}
+
 @media screen and (min-width: 768px) {
     .section__content {
         padding: 1rem 5rem;
