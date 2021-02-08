@@ -20,8 +20,18 @@
     <h1 class="header__title"><a href="index.html"><img src="assets/img/twinkly-title.svg" alt="Twinkly"></a></h1>
     <nav class="nav__menu">
       <ul id="menu" class="menu">
-        <li class="menu__item">
-          <a href="index.html" class="menu__item-action">home</a>
+        <li class="menu__item show-list">
+            home
+            <ul class="dropdown__list inactive">
+              <li class="dropdown__item">witchcraft</li>
+              <li class="dropdown__item">tarot</li>
+              <li class="dropdown__item">wheel of the year</li>
+              <li class="dropdown__item">correspondences</li>
+              <li class="dropdown__item">altar and tools</li>
+              <li class="dropdown__item">meditation</li>
+              <li class="dropdown__item">books</li>
+              <li class="dropdown__item">practice</li>
+            </ul>
         </li>
         <li class="menu__item">
           <a href="#section__cards" class="menu__item-action">grimoire</a>
@@ -36,94 +46,97 @@
     <div class="banner__image"></div>
   </section>    
   
-  <section class="section__cards" id="section__cards">
-    <div class="container">
-      <h2 class="title grimoire__title">grimoire</h2>
-      <ul class="cards__list">
-        <li class="card card__witchcraft" id="card__witchcraft">
-          <a class="card__link" href="assets/pages/witchcraft/principal.html">
-            <img class="card__image" src="assets/img/witchcraft.svg" alt="">
-            <h3 class="card__title">witchcraft: history</h3>
+  <main>
+    <section class="section__cards" id="section__cards">
+      <div class="container">
+        <h2 class="title grimoire__title">grimoire</h2>
+        <ul class="cards__list">
+          <li class="card card__witchcraft" id="card__witchcraft">
+            <a class="card__link" href="assets/pages/witchcraft/principal.html">
+              <img class="card__image" src="assets/img/witchcraft.svg" alt="">
+              <h3 class="card__title">witchcraft</h3>
+            </a>
+          </li>
+          <li class="card card__tarot" id="card__tarot">
+            <a class="card__link" href="assets/pages/tarot/principal.html">
+              <img class="card__image" src="assets/img/tarot.svg" alt="">
+              <h3 class="card__title">tarot</h3>
+            </a>
+          </li>
+          <li class="card card__wheel-of-the-year" id="card__wheel-of-the-year">
+            <a class="card__link" href="assets/pages/wheel-of-the-year/principal.html">
+              <img class="card__image" src="assets/img/wheel-of-the-year.svg" alt="">
+            <h3 class="card__title">wheel of the year</h3> 
+            </a>
+          </li>
+          <li class="card correspondences" id="card__correspondences">
+            <a class="card__link"  href="assets/pages/correspondences/principal.html">
+              <img class="card__image" src="assets/img/correspondences.svg" alt="">
+              <h3 class="card__title">correspondences</h3>
+            </a>
+          </li>
+          <li class="card card__altar-tools" id="card__altar-tools">
+            <a class="card__link" href="assets/pages/altar-tools/principal.html">
+            <img class="card__image" src="assets/img/altar-tools.svg" alt="">
+            <h3 class="card__title">altar and tools</h3>
           </a>
-        </li>
-        <li class="card card__tarot" id="card__tarot">
-          <a class="card__link" href="assets/pages/tarot/principal.html">
-            <img class="card__image" src="assets/img/tarot.svg" alt="">
-            <h3 class="card__title">tarot</h3>
+          </li>
+          <li class="card card__meditation" id="card__meditation">
+            <a class="card__link" href="assets/pages/meditation/principal.html">
+            <img class="card__image" src="assets/img/meditation.svg" alt="">
+            <h3 class="card__title">meditation</h3>
           </a>
-        </li>
-        <li class="card card__wheel-of-the-year" id="card__wheel-of-the-year">
-          <a class="card__link" href="assets/pages/wheel-of-the-year/principal.html">
-            <img class="card__image" src="assets/img/wheel-of-the-year.svg" alt="">
-          <h3 class="card__title">wheel of the year</h3> 
+          </li>
+          <li class="card card__books" id="card__books">
+            <a class="card__link" href="assets/pages/books/principal.html">
+            <img class="card__image" src="assets/img/books.svg" alt="">
+            <h3 class="card__title">books</h3>
           </a>
-        </li>
-        <li class="card correspondences" id="card__correspondences">
-          <a class="card__link"  href="assets/pages/correspondences/principal.html">
-            <img class="card__image" src="assets/img/correspondences.svg" alt="">
-            <h3 class="card__title">correspondences</h3>
+          </li>
+          <li class="card card__practice" id="card__practice">
+            <a class="card__link" href="assets/pages/practice/principal.html">
+            <img class="card__image" src="assets/img/practice.svg" alt="">
+            <h3 class="card__title">practice</h3>
           </a>
-        </li>
-        <li class="card card__altar-tools" id="card__altar-tools">
-          <a class="card__link" href="assets/pages/altar-tools/principal.html">
-          <img class="card__image" src="assets/img/altar-tools.svg" alt="">
-          <h3 class="card__title">altar and tools</h3>
-        </a>
-        </li>
-        <li class="card card__meditation" id="card__meditation">
-          <a class="card__link" href="assets/pages/meditation/principal.html">
-          <img class="card__image" src="assets/img/meditation.svg" alt="">
-          <h3 class="card__title">meditation</h3>
-        </a>
-        </li>
-        <li class="card card__books" id="card__books">
-          <a class="card__link" href="assets/pages/books/principal.html">
-          <img class="card__image" src="assets/img/books.svg" alt="">
-          <h3 class="card__title">books</h3>
-        </a>
-        </li>
-        <li class="card card__practice" id="card__practice">
-          <a class="card__link" href="assets/pages/practice/principal.html">
-          <img class="card__image" src="assets/img/practice.svg" alt="">
-          <h3 class="card__title">practice</h3>
-        </a>
-        </li>
-      </ul>
-    </div>
-  </section>
-  
-  <section class="section__contact" id="section__contact"> 
-    <h2 class="title contact__title">contact</h2>
-    <form class="contact__form">
-      <div class="contact">
-        <div class="field__contact">
-          <field class="field">
-            <label for="name">name:</label>
-            <input type="text" id="name" class="form-control input" placeholder="enter you name" required>
-          </field>
-          <field class="field">
-            <label for="email">email:</label>
-            <input type="email" id="email" class="form-control input" placeholder="enter you email adress" required>
-          </field>
-          <field class="field">
-            <label for="phone">phone:</label>
-            <input type="tel" id="phone" class="form-control input" placeholder="enter you phone" required>
-          </field>
-        </div>
-        <div class="field__message">
-          <field class="field">
-            <label for="message">message:</label>
-            <textarea id="message" class="form-control input" name="message" maxlength="200" rows="5" required></textarea>
-          </field>
-        </div>
+          </li>
+        </ul>
       </div>
-      <div class="button-box">
-        <button type="submit" class="button">submit</button>
-      </div>
-    </form>
-  </section>
+    </section>
+    
+    <section class="section__contact" id="section__contact"> 
+      <h2 class="title contact__title">contact</h2>
+      <form class="contact__form">
+        <div class="contact">
+          <div class="field__contact">
+            <field class="field">
+              <label for="name">name:</label>
+              <input type="text" id="name" class="form-control input" placeholder="enter you name" required>
+            </field>
+            <field class="field">
+              <label for="email">email:</label>
+              <input type="email" id="email" class="form-control input" placeholder="enter you email adress" required>
+            </field>
+            <field class="field">
+              <label for="phone">phone:</label>
+              <input type="tel" id="phone" class="form-control input" placeholder="enter you phone" required>
+            </field>
+          </div>
+          <div class="field__message">
+            <field class="field">
+              <label for="message">message:</label>
+              <textarea id="message" class="form-control input" name="message" maxlength="200" rows="5" required></textarea>
+            </field>
+          </div>
+        </div>
+        <div class="button-box">
+          <button type="submit" class="button">submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
   <footer class="footer">
     <h4 class="footer__text"> copyright 2021 | twinkly</h4>
   </footer>
+  <script src="assets/js/dropdown.js"></script>
 </body>
 </html>
