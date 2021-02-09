@@ -20,9 +20,11 @@
     <h1 class="header__title"><a href="index.html"><img src="assets/img/twinkly-title.svg" alt="Twinkly"></a></h1>
     <nav class="nav__menu">
       <ul id="menu" class="menu">
-        <li class="menu__item show-list">
+        <div class="dropdown" onClick="show()">
+          <li class="menu__item show-list">
             home
-            <ul class="dropdown__list inactive">
+            <div class="open-arrow">oi</div>
+            <ul class="dropdown__list">
               <li class="dropdown__item">witchcraft</li>
               <li class="dropdown__item">tarot</li>
               <li class="dropdown__item">wheel of the year</li>
@@ -32,7 +34,8 @@
               <li class="dropdown__item">books</li>
               <li class="dropdown__item">practice</li>
             </ul>
-        </li>
+          </li>
+        </div>
         <li class="menu__item">
           <a href="#section__cards" class="menu__item-action">grimoire</a>
         </li>
@@ -66,7 +69,7 @@
           <li class="card card__wheel-of-the-year" id="card__wheel-of-the-year">
             <a class="card__link" href="assets/pages/wheel-of-the-year/principal.html">
               <img class="card__image" src="assets/img/wheel-of-the-year.svg" alt="">
-            <h3 class="card__title">wheel of the year</h3> 
+              <h3 class="card__title">wheel of the year</h3> 
             </a>
           </li>
           <li class="card correspondences" id="card__correspondences">
@@ -77,27 +80,27 @@
           </li>
           <li class="card card__altar-tools" id="card__altar-tools">
             <a class="card__link" href="assets/pages/altar-tools/principal.html">
-            <img class="card__image" src="assets/img/altar-tools.svg" alt="">
-            <h3 class="card__title">altar and tools</h3>
-          </a>
+              <img class="card__image" src="assets/img/altar-tools.svg" alt="">
+              <h3 class="card__title">altar and tools</h3>
+            </a>
           </li>
           <li class="card card__meditation" id="card__meditation">
             <a class="card__link" href="assets/pages/meditation/principal.html">
-            <img class="card__image" src="assets/img/meditation.svg" alt="">
-            <h3 class="card__title">meditation</h3>
-          </a>
+              <img class="card__image" src="assets/img/meditation.svg" alt="">
+              <h3 class="card__title">meditation</h3>
+            </a>
           </li>
           <li class="card card__books" id="card__books">
             <a class="card__link" href="assets/pages/books/principal.html">
-            <img class="card__image" src="assets/img/books.svg" alt="">
-            <h3 class="card__title">books</h3>
-          </a>
+              <img class="card__image" src="assets/img/books.svg" alt="">
+              <h3 class="card__title">books</h3>
+            </a>
           </li>
           <li class="card card__practice" id="card__practice">
             <a class="card__link" href="assets/pages/practice/principal.html">
-            <img class="card__image" src="assets/img/practice.svg" alt="">
-            <h3 class="card__title">practice</h3>
-          </a>
+              <img class="card__image" src="assets/img/practice.svg" alt="">
+              <h3 class="card__title">practice</h3>
+            </a>
           </li>
         </ul>
       </div>
