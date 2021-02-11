@@ -1,8 +1,8 @@
 .banner__image {
-    height: 60vw;
     background-image: url("../img/banner.png");
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    height: 60vw;
 }
 
 @media screen and (min-width: 768px) {

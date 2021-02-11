@@ -20,9 +20,22 @@
     <h1 class="header__title"><a href="../../../index.html"><img src="../../img/twinkly-title.svg" alt="Twinkly"></a></h1>
     <nav class="nav__menu">
       <ul id="menu" class="menu">
-        <li class="menu__item">
-          <a href="../../../index.html" class="menu__item-action">home</a>
-        </li>
+        <div class="dropdown" onClick="show()">
+          <li class="menu__item show-list">
+            <div class="dropdown__icon dropdown__icon-opacity ">arrow</div>
+            home
+            <ul class="dropdown__list">
+              <li class="dropdown__item"><a href="../witchcraft/principal.html">witchcraft</a></li>
+              <li class="dropdown__item"><a href="../tarot/principal.html">tarot</a></li>
+              <li class="dropdown__item"><a href="../wheel-of-the-year/principal.html">wheel of the year</a></li>
+              <li class="dropdown__item"><a href="../correspondences/principal.html">correspondences</a></li>
+              <li class="dropdown__item"><a href="../altar-tools/">altar and tools</a></li>
+              <li class="dropdown__item"><a href="../meditation/principal.html">meditation</a></li>
+              <li class="dropdown__item"><a href="../books/principal.html">books</a></li>
+              <li class="dropdown__item"><a href="../practice/principal.html">practice</a></li>
+            </ul>
+          </li>
+        </div>
         <li class="menu__item">
           <a href="principal.html" class="menu__item-action">books</a>
         </li>
@@ -76,5 +89,6 @@
   <footer class="footer">
     <h4 class="footer__text"> copyright 2021 | twinkly</h4>
   </footer>
+  <script src="../../js/dropdown.js"></script>
 </body>
 </html>

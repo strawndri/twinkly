@@ -1,1 +1,10 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort-down" class="svg-inline--fa fa-sort-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"></path></svg>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.13 167.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f9f9;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M31,4.61H269c21.4,0,32.1,25.9,17,41l-119,119a23.9,23.9,0,0,1-33.9,0L14,45.61C-1.1,30.51,9.6,4.61,31,4.61Z" transform="translate(-6.93 -4.61)"/>
+</svg>

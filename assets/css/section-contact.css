@@ -13,18 +13,18 @@
 }
 
 .input {
-    margin-top: .5rem;
     border: 2px solid var(--pink);
-    transition: .5s;
-    font-size: 1.1rem;
-    font-family: inherit;
     border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.1rem;
+    margin-top: .5rem;
     padding: .5em;
+    transition: .5s;
 }
 
 .input:hover {
-    border-color: var(--pink);
     background-color: var(--white);
+    border-color: var(--pink);
 }
 
 @media screen and (min-width: 768px) {

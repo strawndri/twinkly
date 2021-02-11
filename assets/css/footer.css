@@ -1,7 +1,7 @@
 .footer {
+    border-top: 2px solid var(--pink);
     padding: 1.5rem 0;
     text-align: center;
-    border-top: 2px solid var(--pink);
 }
 
 .footer__text::before {
