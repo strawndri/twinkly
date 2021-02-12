@@ -3,10 +3,12 @@
     background-position: center;
     background-size: cover;
     height: 60vw;
+    margin-top: 5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .banner__image {
+        margin-top: 0;
         height: 50vw;
     }   
 }
