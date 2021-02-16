@@ -47,8 +47,19 @@
 @media screen and (min-width: 600px) {
     .search__list {
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+}
 
+@media screen and (min-width: 700px){
+    .search__list {
+        justify-content: space-between;
+    }
+    .search__item {
+        margin: 1rem;
+        width: 45%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -57,6 +68,10 @@
         display:block;
         margin-right: 1rem;
         width: 40%;
+    }
+
+    .search__item {
+        width: 47.5%;
     }
 
 }

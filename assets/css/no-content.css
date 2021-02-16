@@ -2,15 +2,15 @@
     background-color: var(--white);
     font-size: 20px;
     height: 90vh;
-    padding-top: 7rem;
+    padding-top: 11rem;
     text-align: center;
 }
 
 .image__no-content{
-    background-image: url('../img/loading-dont-content.svg');
+    background-image: url('../img/icons/loading-dont-content.svg');
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 45vh;
     
 }
 
@@ -20,4 +20,19 @@
 .no-content__link {
     color: var(--pink);
     font-weight: bold;
+}
+
+@media screen and (min-width: 400px){
+    .section__no-content{
+        padding-top: 8rem;
+    }
+    .image__no-content{
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .section__no-content{
+        padding-top: 6.5rem;
+    }
 }
