@@ -29,8 +29,9 @@ body {
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
+    line-height: 1.1;
     padding: 1em 0;
     text-align: center;
     text-transform: uppercase;
@@ -55,4 +56,10 @@ body {
     background-color: #935ab9 ;
     border: 2px solid var(--dark-purple);
     cursor: pointer;
+}
+
+@media screen and (min-width: 600px){
+    .title {
+        font-size: 1.8rem;
+    }
 }

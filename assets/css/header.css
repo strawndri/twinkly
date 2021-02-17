@@ -12,7 +12,7 @@
     left: 0;
 }
 .header__title {
-    margin: .5rem 1rem;
+    margin: .5rem 1rem .4rem 1rem;
     width: 8rem;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .menu__item {
-    font-size: 1.4em;
-    margin: .5rem .8rem;
+    font-size: 1.2em;
+    margin: .5rem .4rem;
 }
 
 .menu__item-action,
@@ -96,6 +96,13 @@
 }
 
 /*--------responsive---------- */
+@media screen and (min-width: 400px) {
+    .menu__item {
+        font-size: 1.5em;
+        margin: .5rem .6rem;
+    }
+}
+
 
 @media screen and (min-width: 600px) {
     .header {
